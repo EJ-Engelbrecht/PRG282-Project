@@ -1,0 +1,31 @@
+Student ID,First Name,Last Name,Age,Email,Course
+600237,Dall,Elsley,20,delsley0@va.gov,Computer Science
+601582,Aldis,Smallcomb,22,asmallcomb1@seesaa.net,Business Administration
+602417,Benedict,Januszewicz,21,bjanuszewicz2@disqus.com,Biology
+603254,Aloin,Rundle,19,arundle3@reuters.com,Mathematics
+604836,Percy,Cloney,23,pcloney4@weebly.com,Psychology
+605931,Cyndi,Boulden,24,cboulden5@java.com,English Literature
+606824,Revkah,Bockin,22,rbockin6@instagram.com,Fine Arts
+607319,Faustina,Swine,20,fswine7@google.nl,Environmental Science
+608745,Lanita,Ferrolli,21,lferrolli8@yale.edu,Physics
+609678,Shoshanna,Bletsor,25,sbletsor9@cloudflare.com,History
+610932,Ursa,Lawland,19,ulawlanda@miibeian.gov.cn,Sociology
+611245,Aloise,Tindley,23,atindleyb@nhs.uk,Graphic Design
+612578,Rodrigo,Grinin,22,rgrininc@nymag.com,Chemistry
+613876,Pattin,Aspinell,21,paspinelld@reverbnation.com,Music
+614890,Meagan,Heine,20,mheinee@nymag.com,Film Studies
+615204,Lorne,Tunsley,24,ltunsleyf@taobao.com,Data Science
+616347,Erskine,Doumer,26,edoumerg@trellian.com,Philosophy
+617568,Holly,Brooksbie,19,hbrooksbieh@xing.com,Marketing
+618412,Lorri,Antoniou,25,lantonioui@oakley.com,Information Technology
+619834,Florri,Zarb,22,fzarbj@netlog.com,Nursing
+620256,Hynda,Barabich,20,hbarabichk@apache.org,Political Science
+621403,Mikol,Brimblecombe,21,mbrimblecombel@cnn.com,Anthropology
+622715,Renae,Yuryatin,24,ryuryatinm@virginia.edu,Statistics
+623889,Frans,Sand,19,fsandn@ocn.ne.jp,Archaeology
+624157,Norbert,Turk,23,nturko@army.mil,Computer Engineering
+625348,Cara,Greenhow,22,cgreenhowp@dailymotion.com,Education
+626902,Romy,Beechcraft,21,rbeechcraftq@hao123.com,Hospitality Management
+627533,Lin,Halburton,20,lhalburtonr@techcrunch.com,Sports Management
+628214,Verile,Bustin,19,vbustins@yahoo.co.jp,Performing Arts
+629868,Griffin,Rigbye,24,grigbyet@tmall.com,Biomedical Engineering
