@@ -1,31 +1,31 @@
-Student ID,First Name,Last Name,Age,Email,Course
-600237,Dall,Elsley,20,600237@student.belgiumcampus.ac.za,BCOMP
-601582,Aldis,Smallcomb,22,601582@student.belgiumcampus.ac.za,BIT
-602417,Benedict,Januszewicz,21,602417@student.belgiumcampus.ac.za,DIT
-603254,Aloin,Rundle,19,603254@student.belgiumcampus.ac.za,BIT
-604836,Percy,Cloney,23,604836@student.belgiumcampus.ac.za,BCOMP
-605931,Cyndi,Boulden,24,605931@student.belgiumcampus.ac.za,DIT
-606824,Revkah,Bockin,22,606824@student.belgiumcampus.ac.za,BCOMP
-607319,Faustina,Swine,20,607319@student.belgiumcampus.ac.za,BIT
-608745,Lanita,Ferrolli,21,608745@student.belgiumcampus.ac.za,DIT
-609678,Shoshanna,Bletsor,25,609678@student.belgiumcampus.ac.za,BCOMP
-610932,Ursa,Lawland,19,610932@student.belgiumcampus.ac.za,BIT
-611245,Aloise,Tindley,23,611245@student.belgiumcampus.ac.za,DIT
-612578,Rodrigo,Grinin,22,612578@student.belgiumcampus.ac.za,BCOMP
-613876,Pattin,Aspinell,21,613876@student.belgiumcampus.ac.za,DIT
-614890,Meagan,Heine,20,614890@student.belgiumcampus.ac.za,BIT
-615204,Lorne,Tunsley,24,615204@student.belgiumcampus.ac.za,BCOMP
-616347,Erskine,Doumer,26,616347@student.belgiumcampus.ac.za,BIT
-617568,Holly,Brooksbie,19,617568@student.belgiumcampus.ac.za,DIT
-618412,Lorri,Antoniou,25,618412@student.belgiumcampus.ac.za,BCOMP
-619834,Florri,Zarb,22,619834@student.belgiumcampus.ac.za,BIT
-620256,Hynda,Barabich,20,620256@student.belgiumcampus.ac.za,DIT
-621403,Mikol,Brimblecombe,21,621403@student.belgiumcampus.ac.za,BCOMP
-622715,Renae,Yuryatin,24,622715@student.belgiumcampus.ac.za,BIT
-623889,Frans,Sand,19,623889@student.belgiumcampus.ac.za,DIT
-624157,Norbert,Turk,23,624157@student.belgiumcampus.ac.za,BCOMP
-625348,Cara,Greenhow,22,625348@student.belgiumcampus.ac.za,BIT
-626902,Romy,Beechcraft,21,626902@student.belgiumcampus.ac.za,DIT
-627533,Lin,Halburton,20,627533@student.belgiumcampus.ac.za,BCOMP
-628214,Verile,Bustin,19,628214@student.belgiumcampus.ac.za,BIT
-629868,Griffin,Rigbye,24,629868@student.belgiumcampus.ac.za,DIT
+Student ID,First Name,Last Name,Date Of Birth,Email,Course,Address,Cellphone No.
+600237,Dall,Elsley,2003-10-15,600237@student.belgiumcampus.ac.za,BCOMP,123 Maple St, (123) 456-7890
+601582,Aldis,Smallcomb,2001-10-15,601582@student.belgiumcampus.ac.za,BIT,456 Oak Ave, (234) 567-8901
+602417,Benedict,Januszewicz,2002-10-15,602417@student.belgiumcampus.ac.za,DIT,789 Pine Blvd, (345) 678-9012
+603254,Aloin,Rundle,2004-10-15,603254@student.belgiumcampus.ac.za,BIT,101 Cedar Rd, (456) 789-0123
+604836,Percy,Cloney,2000-10-15,604836@student.belgiumcampus.ac.za,BCOMP,202 Birch Ln, (567) 890-1234
+605931,Cyndi,Boulden,1999-10-15,605931@student.belgiumcampus.ac.za,DIT,303 Walnut St, (678) 901-2345
+606824,Revkah,Bockin,2001-10-15,606824@student.belgiumcampus.ac.za,BCOMP,404 Cherry Dr, (789) 012-3456
+607319,Faustina,Swine,2003-10-15,607319@student.belgiumcampus.ac.za,BIT,505 Elm Ct, (890) 123-4567
+608745,Lanita,Ferrolli,2002-10-15,608745@student.belgiumcampus.ac.za,DIT,606 Maple St, (901) 234-5678
+609678,Shoshanna,Bletsor,1998-10-15,609678@student.belgiumcampus.ac.za,BCOMP,707 Oak Ave, (012) 345-6789
+610932,Ursa,Lawland,2004-10-15,610932@student.belgiumcampus.ac.za,BIT,808 Pine Blvd, (123) 456-7890
+611245,Aloise,Tindley,2000-10-15,611245@student.belgiumcampus.ac.za,DIT,909 Cedar Rd, (234) 567-8901
+612578,Rodrigo,Grinin,2001-10-15,612578@student.belgiumcampus.ac.za,BCOMP,111 Birch Ln, (345) 678-9012
+613876,Pattin,Aspinell,2002-10-15,613876@student.belgiumcampus.ac.za,DIT,222 Walnut St, (456) 789-0123
+614890,Meagan,Heine,2003-10-15,614890@student.belgiumcampus.ac.za,BIT,333 Cherry Dr, (567) 890-1234
+615204,Lorne,Tunsley,1999-10-15,615204@student.belgiumcampus.ac.za,BCOMP,444 Elm Ct, (678) 901-2345
+616347,Erskine,Doumer,1997-10-15,616347@student.belgiumcampus.ac.za,BIT,555 Maple St, (789) 012-3456
+617568,Holly,Brooksbie,2004-10-15,617568@student.belgiumcampus.ac.za,DIT,666 Oak Ave, (890) 123-4567
+618412,Lorri,Antoniou,1998-10-15,618412@student.belgiumcampus.ac.za,BCOMP,777 Pine Blvd, (901) 234-5678
+619834,Florri,Zarb,2001-10-15,619834@student.belgiumcampus.ac.za,BIT,888 Cedar Rd, (012) 345-6789
+620256,Hynda,Barabich,2003-10-15,620256@student.belgiumcampus.ac.za,DIT,999 Birch Ln, (123) 456-7890
+621403,Mikol,Brimblecombe,2002-10-15,621403@student.belgiumcampus.ac.za,BCOMP,123 Walnut St, (234) 567-8901
+622715,Renae,Yuryatin,1999-10-15,622715@student.belgiumcampus.ac.za,BIT,456 Cherry Dr, (345) 678-9012
+623889,Frans,Sand,2004-10-15,623889@student.belgiumcampus.ac.za,DIT,789 Elm Ct, (456) 789-0123
+624157,Norbert,Turk,2000-10-15,624157@student.belgiumcampus.ac.za,BCOMP,101 Maple St, (567) 890-1234
+625348,Cara,Greenhow,2001-10-15,625348@student.belgiumcampus.ac.za,BIT,202 Oak Ave, (678) 901-2345
+626902,Romy,Beechcraft,2002-10-15,626902@student.belgiumcampus.ac.za,DIT,303 Pine Blvd, (789) 012-3456
+627533,Lin,Halburton,2003-10-15,627533@student.belgiumcampus.ac.za,BCOMP,404 Cedar Rd, (890) 123-4567
+628214,Verile,Bustin,2004-10-15,628214@student.belgiumcampus.ac.za,BIT,505 Birch Ln, (901) 234-5678
+629868,Griffin,Rigbye,1999-10-15,629868@student.belgiumcampus.ac.za,DIT,606 Walnut St, (012) 345-6789
