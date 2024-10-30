@@ -1,31 +1,31 @@
 Student ID,First Name,Last Name,Age,Email,Course
-600237,Dall,Elsley,20,delsley0@va.gov,Computer Science
-601582,Aldis,Smallcomb,22,asmallcomb1@seesaa.net,Business Administration
-602417,Benedict,Januszewicz,21,bjanuszewicz2@disqus.com,Biology
-603254,Aloin,Rundle,19,arundle3@reuters.com,Mathematics
-604836,Percy,Cloney,23,pcloney4@weebly.com,Psychology
-605931,Cyndi,Boulden,24,cboulden5@java.com,English Literature
-606824,Revkah,Bockin,22,rbockin6@instagram.com,Fine Arts
-607319,Faustina,Swine,20,fswine7@google.nl,Environmental Science
-608745,Lanita,Ferrolli,21,lferrolli8@yale.edu,Physics
-609678,Shoshanna,Bletsor,25,sbletsor9@cloudflare.com,History
-610932,Ursa,Lawland,19,ulawlanda@miibeian.gov.cn,Sociology
-611245,Aloise,Tindley,23,atindleyb@nhs.uk,Graphic Design
-612578,Rodrigo,Grinin,22,rgrininc@nymag.com,Chemistry
-613876,Pattin,Aspinell,21,paspinelld@reverbnation.com,Music
-614890,Meagan,Heine,20,mheinee@nymag.com,Film Studies
-615204,Lorne,Tunsley,24,ltunsleyf@taobao.com,Data Science
-616347,Erskine,Doumer,26,edoumerg@trellian.com,Philosophy
-617568,Holly,Brooksbie,19,hbrooksbieh@xing.com,Marketing
-618412,Lorri,Antoniou,25,lantonioui@oakley.com,Information Technology
-619834,Florri,Zarb,22,fzarbj@netlog.com,Nursing
-620256,Hynda,Barabich,20,hbarabichk@apache.org,Political Science
-621403,Mikol,Brimblecombe,21,mbrimblecombel@cnn.com,Anthropology
-622715,Renae,Yuryatin,24,ryuryatinm@virginia.edu,Statistics
-623889,Frans,Sand,19,fsandn@ocn.ne.jp,Archaeology
-624157,Norbert,Turk,23,nturko@army.mil,Computer Engineering
-625348,Cara,Greenhow,22,cgreenhowp@dailymotion.com,Education
-626902,Romy,Beechcraft,21,rbeechcraftq@hao123.com,Hospitality Management
-627533,Lin,Halburton,20,lhalburtonr@techcrunch.com,Sports Management
-628214,Verile,Bustin,19,vbustins@yahoo.co.jp,Performing Arts
-629868,Griffin,Rigbye,24,grigbyet@tmall.com,Biomedical Engineering
+600237,Dall,Elsley,20,600237@student.belgiumcampus.ac.za,BCOMP
+601582,Aldis,Smallcomb,22,601582@student.belgiumcampus.ac.za,BIT
+602417,Benedict,Januszewicz,21,602417@student.belgiumcampus.ac.za,DIT
+603254,Aloin,Rundle,19,603254@student.belgiumcampus.ac.za,BIT
+604836,Percy,Cloney,23,604836@student.belgiumcampus.ac.za,BCOMP
+605931,Cyndi,Boulden,24,605931@student.belgiumcampus.ac.za,DIT
+606824,Revkah,Bockin,22,606824@student.belgiumcampus.ac.za,BCOMP
+607319,Faustina,Swine,20,607319@student.belgiumcampus.ac.za,BIT
+608745,Lanita,Ferrolli,21,608745@student.belgiumcampus.ac.za,DIT
+609678,Shoshanna,Bletsor,25,609678@student.belgiumcampus.ac.za,BCOMP
+610932,Ursa,Lawland,19,610932@student.belgiumcampus.ac.za,BIT
+611245,Aloise,Tindley,23,611245@student.belgiumcampus.ac.za,DIT
+612578,Rodrigo,Grinin,22,612578@student.belgiumcampus.ac.za,BCOMP
+613876,Pattin,Aspinell,21,613876@student.belgiumcampus.ac.za,DIT
+614890,Meagan,Heine,20,614890@student.belgiumcampus.ac.za,BIT
+615204,Lorne,Tunsley,24,615204@student.belgiumcampus.ac.za,BCOMP
+616347,Erskine,Doumer,26,616347@student.belgiumcampus.ac.za,BIT
+617568,Holly,Brooksbie,19,617568@student.belgiumcampus.ac.za,DIT
+618412,Lorri,Antoniou,25,618412@student.belgiumcampus.ac.za,BCOMP
+619834,Florri,Zarb,22,619834@student.belgiumcampus.ac.za,BIT
+620256,Hynda,Barabich,20,620256@student.belgiumcampus.ac.za,DIT
+621403,Mikol,Brimblecombe,21,621403@student.belgiumcampus.ac.za,BCOMP
+622715,Renae,Yuryatin,24,622715@student.belgiumcampus.ac.za,BIT
+623889,Frans,Sand,19,623889@student.belgiumcampus.ac.za,DIT
+624157,Norbert,Turk,23,624157@student.belgiumcampus.ac.za,BCOMP
+625348,Cara,Greenhow,22,625348@student.belgiumcampus.ac.za,BIT
+626902,Romy,Beechcraft,21,626902@student.belgiumcampus.ac.za,DIT
+627533,Lin,Halburton,20,627533@student.belgiumcampus.ac.za,BCOMP
+628214,Verile,Bustin,19,628214@student.belgiumcampus.ac.za,BIT
+629868,Griffin,Rigbye,24,629868@student.belgiumcampus.ac.za,DIT
