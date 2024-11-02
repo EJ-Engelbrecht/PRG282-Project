@@ -42,10 +42,10 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
                 }
             }
             //Test Display
-            foreach (var item in students)
-            {
-                MessageBox.Show(item.ToString());
-            }
+            //foreach (var item in students)
+            //{
+            //    MessageBox.Show(item.ToString());
+            //}
         }
     }
 }

@@ -140,9 +140,9 @@ namespace StudentManagementSystem_PRG282Project
         private void Form1_Load(object sender, EventArgs e)
         {
             //Just to test connection to students.txt
-            FileHandler fh = new FileHandler();
-            ////fh.TestFile();
-            fh.Reader();
+            //FileHandler fh = new FileHandler();
+            //fh.TestFile();
+            //fh.Reader();
         }
     }
 }
