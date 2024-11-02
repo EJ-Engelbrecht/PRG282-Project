@@ -34,10 +34,10 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             Form1 form1 = new Form1();
             form1.Show();
         }
-
+        DataTable table = new DataTable();
         private void DeleteForm_Load(object sender, EventArgs e)
         {
-            fh.DataTableDisplay(dataGridView1);
+            fh.DataTableDisplay(table,dataGridView1);
         }
     }
 }

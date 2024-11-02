@@ -26,20 +26,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
         private void UpdateInfo_Load(object sender, EventArgs e)
         {
-            fileHandler.Reader();
-            table.Columns.Add("StudentID", typeof(int));
-            table.Columns.Add("First Name", typeof(string));
-            table.Columns.Add("Last Name", typeof(string));
-            table.Columns.Add("Date of Birth", typeof(DateTime));
-            table.Columns.Add("Email", typeof(string));
-            table.Columns.Add("Course", typeof(string));
-            table.Columns.Add("Address", typeof(string));
-            table.Columns.Add("CellNum", typeof(string));
-            foreach (Student student in fileHandler.students)
-            {
-                table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);
-            }
-            dataGridView1.DataSource = table;
+            fileHandler.DataTableDisplay(table, dataGridView1);
 
         }
 

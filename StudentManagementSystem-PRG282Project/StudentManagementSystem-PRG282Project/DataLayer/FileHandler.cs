@@ -45,39 +45,57 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             }
         }
 
-        public void DataTableDisplay(DataGridView datagridview1)
+        //public void DataTableDisplay(DataGridView datagridview1)
+        //{
+        //    DataTable table = new DataTable();
+
+        //    using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
+        //    {
+        //        using (StreamReader sr = new StreamReader(fs))
+        //        {
+        //            string line;
+        //            bool columnsAdded = false;
+
+        //            while ((line = sr.ReadLine()) != null)
+        //            {
+        //                string[] LineArr = line.Split(',');
+        //                if (columnsAdded == false)
+        //                {
+        //                    table.Columns.Add("Student ID");
+        //                    table.Columns.Add("First Name");
+        //                    table.Columns.Add("Last Name");
+        //                    table.Columns.Add("Date Of Birth");
+        //                    table.Columns.Add("Email");
+        //                    table.Columns.Add("Course");
+        //                    table.Columns.Add("Address");
+        //                    table.Columns.Add("Cellphone No.");
+        //                    columnsAdded = true;
+        //                }
+
+        //                table.Rows.Add(LineArr);
+        //            }
+
+        //        }
+        //    }
+        //    datagridview1.DataSource = table;
+        //}
+
+        public void DataTableDisplay(DataTable table, DataGridView dataGridView)
         {
-            DataTable table = new DataTable();
-
-            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
+            Reader();
+            table.Columns.Add("StudentID", typeof(int));
+            table.Columns.Add("First Name", typeof(string));
+            table.Columns.Add("Last Name", typeof(string));
+            table.Columns.Add("Date of Birth", typeof(DateTime));
+            table.Columns.Add("Email", typeof(string));
+            table.Columns.Add("Course", typeof(string));
+            table.Columns.Add("Address", typeof(string));
+            table.Columns.Add("CellNum", typeof(string));
+            foreach (Student student in students)
             {
-                using (StreamReader sr = new StreamReader(fs))
-                {
-                    string line;
-                    bool columnsAdded = false;
-
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        string[] LineArr = line.Split(',');
-                        if (columnsAdded == false)
-                        {
-                            table.Columns.Add("Student ID");
-                            table.Columns.Add("First Name");
-                            table.Columns.Add("Last Name");
-                            table.Columns.Add("Date Of Birth");
-                            table.Columns.Add("Email");
-                            table.Columns.Add("Course");
-                            table.Columns.Add("Address");
-                            table.Columns.Add("Cellphone No.");
-                            columnsAdded = true;
-                        }
-
-                        table.Rows.Add(LineArr);
-                    }
-
-                }
+                table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);
             }
-            datagridview1.DataSource = table;
+            dataGridView.DataSource = table;
         }
 
 
