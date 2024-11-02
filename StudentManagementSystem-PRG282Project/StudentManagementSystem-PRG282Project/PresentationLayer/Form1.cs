@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentManagementSystem_PRG282Project.DataLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -124,6 +125,7 @@ namespace StudentManagementSystem_PRG282Project
             this.Controls.Add(this.addStudent);
             this.Controls.Add(this.viewAllStudents);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -133,6 +135,13 @@ namespace StudentManagementSystem_PRG282Project
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //Just to test connection to students.txt
+            //FileHandler fh = new FileHandler();
+            //fh.TestFile();
         }
     }
 }

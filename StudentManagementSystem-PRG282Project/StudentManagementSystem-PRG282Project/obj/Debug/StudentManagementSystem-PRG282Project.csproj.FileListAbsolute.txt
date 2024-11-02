@@ -9,3 +9,13 @@ C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282P
 C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.exe
 C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.pdb
 C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.Form1.resources
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\bin\Debug\StudentManagementSystem-PRG282Project.exe.config
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\bin\Debug\StudentManagementSystem-PRG282Project.exe
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\bin\Debug\StudentManagementSystem-PRG282Project.pdb
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.AssemblyReference.cache
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.Form1.resources
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.Properties.Resources.resources
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.GenerateResource.cache
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.CoreCompileInputs.cache
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.exe
+C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.pdb
