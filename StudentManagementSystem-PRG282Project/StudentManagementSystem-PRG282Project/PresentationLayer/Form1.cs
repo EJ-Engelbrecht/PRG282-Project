@@ -1,4 +1,5 @@
 ﻿using StudentManagementSystem_PRG282Project.DataLayer;
+using StudentManagementSystem_PRG282Project.PresentationLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -78,6 +79,7 @@ namespace StudentManagementSystem_PRG282Project
             this.deleteStudent.TabIndex = 3;
             this.deleteStudent.Text = "Delete student";
             this.deleteStudent.UseVisualStyleBackColor = false;
+            this.deleteStudent.Click += new System.EventHandler(this.deleteStudent_Click);
             // 
             // generateReport
             // 
@@ -143,6 +145,13 @@ namespace StudentManagementSystem_PRG282Project
             //FileHandler fh = new FileHandler();
             //fh.TestFile();
             //fh.Reader();
+        }
+
+        private void deleteStudent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeleteForm DF = new DeleteForm();
+            DF.ShowDialog();
         }
     }
 }

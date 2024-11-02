@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Configuration;
+using System.Data;
 
 namespace StudentManagementSystem_PRG282Project.DataLayer
 {
     internal class FileHandler
     {
-        string path = @"students.txt";
+        public string path = @"students.txt";
         public List<Student> students = new List<Student>();
         
 
@@ -41,11 +42,41 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
                 }
             }
-            //Test Display
-            //foreach (var item in students)
-            //{
-            //    MessageBox.Show(item.ToString());
-            //}
+        }
+
+        public void DataTableDisplay(DataGridView datagridview1)
+        {
+            DataTable table = new DataTable();
+
+            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
+            {
+                using (StreamReader sr = new StreamReader(fs))
+                {
+                    string line;
+                    bool columnsAdded = false;
+
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        string[] LineArr = line.Split(',');
+                        if (columnsAdded == false)
+                        {
+                            table.Columns.Add("Student ID");
+                            table.Columns.Add("First Name");
+                            table.Columns.Add("Last Name");
+                            table.Columns.Add("Date Of Birth");
+                            table.Columns.Add("Email");
+                            table.Columns.Add("Course");
+                            table.Columns.Add("Address");
+                            table.Columns.Add("Cellphone No.");
+                            columnsAdded = true;
+                        }
+
+                        table.Rows.Add(LineArr);
+                    }
+
+                }
+            }
+            datagridview1.DataSource = table;
         }
     }
 }
