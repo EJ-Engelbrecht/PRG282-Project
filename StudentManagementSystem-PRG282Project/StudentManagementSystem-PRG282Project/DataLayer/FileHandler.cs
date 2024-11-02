@@ -27,6 +27,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
         public void Reader()
         {
+            students = new List<Student>();
             using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
             {
                 using (StreamReader sr = new StreamReader(fs))
@@ -78,5 +79,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             }
             datagridview1.DataSource = table;
         }
+
+
     }
 }

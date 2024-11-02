@@ -43,6 +43,7 @@ namespace StudentManagementSystem_PRG282Project
             this.viewAllStudents.TabIndex = 0;
             this.viewAllStudents.Text = "View all students";
             this.viewAllStudents.UseVisualStyleBackColor = false;
+            this.viewAllStudents.Click += new System.EventHandler(this.viewAllStudents_Click);
             // 
             // addStudent
             // 
@@ -67,6 +68,7 @@ namespace StudentManagementSystem_PRG282Project
             this.updateStudent.TabIndex = 2;
             this.updateStudent.Text = "Update student";
             this.updateStudent.UseVisualStyleBackColor = false;
+            this.updateStudent.Click += new System.EventHandler(this.updateStudent_Click);
             // 
             // deleteStudent
             // 
@@ -151,7 +153,21 @@ namespace StudentManagementSystem_PRG282Project
         {
             this.Hide();
             DeleteForm DF = new DeleteForm();
+            //DF.Closed += (s, args) => this.Close();
             DF.ShowDialog();
+        }
+
+        private void updateStudent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var updateInfoForm = new UpdateInfo();
+            //updateInfoForm.Closed += (s, args) => this.Close();
+            updateInfoForm.Show();
+        }
+
+        private void viewAllStudents_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

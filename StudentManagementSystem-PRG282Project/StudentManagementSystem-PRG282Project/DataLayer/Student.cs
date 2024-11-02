@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentManagementSystem_PRG282Project.DataLayer
 {
-    internal class Student
+    public class Student
     {
         public int StudentID { get; set; }
         public string FirstName { get; set; }
@@ -31,8 +31,13 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
         public override string ToString()
         {
-            return $"Student ID: {StudentID}\nFirst Name: {FirstName}Last Name: {LastName}\nDate of Birth: {DateOfBirth}\nDate of Birth: {DateOfBirth}\nEmail: {Email}\nCourse: {Course}\nAddress: {Address}\nCell Number: {CellNum}";
+            return $"Student ID: {StudentID}\nFirst Name: {FirstName}Last Name: {LastName}\nDate of Birth: {DateOfBirth}\nEmail: {Email}\nCourse: {Course}\nAddress: {Address}\nCell Number: {CellNum}";
 
+        }
+
+        public string txtString()
+        {
+            return $"{StudentID},{FirstName},{LastName},{DateOfBirth},{Email},{Course},{Address},{CellNum}";
         }
     }
 }

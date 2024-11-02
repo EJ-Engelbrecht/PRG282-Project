@@ -19,4 +19,19 @@ C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Pro
 C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.CoreCompileInputs.cache
 C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.exe
 C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.pdb
+<<<<<<< Updated upstream
 C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.DeleteForm.resources
+=======
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\bin\Debug\StudentManagementSystem-PRG282Project.exe.config
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\bin\Debug\StudentManagementSystem-PRG282Project.exe
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\bin\Debug\StudentManagementSystem-PRG282Project.pdb
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.AssemblyReference.cache
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.Form1.resources
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.Properties.Resources.resources
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.GenerateResource.cache
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.csproj.CoreCompileInputs.cache
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.exe
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem-PRG282Project.pdb
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.UpdateInfo.resources
+>>>>>>> Stashed changes
+C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.DeleteForm.resources
