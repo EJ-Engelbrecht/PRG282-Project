@@ -78,7 +78,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             Update update = new Update();
 
-            Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, coursetxt.Text, addresstxt.Text, celltxt.Text);
+            Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
 
             try
             {
@@ -110,7 +110,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                 lastNametxt.Text = row.Cells[2].Value.ToString();
                 DOBtxt.Text = row.Cells[3].Value.ToString();
                 emailtxt.Text = row.Cells[4].Value.ToString();
-                coursetxt.Text = row.Cells[5].Value.ToString();
+                courseComboBox.Text = row.Cells[5].Value.ToString();
                 addresstxt.Text = row.Cells[6].Value.ToString();
                 celltxt.Text = row.Cells[7].Value.ToString();
 

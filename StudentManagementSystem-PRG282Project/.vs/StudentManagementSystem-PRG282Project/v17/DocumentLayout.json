@@ -3,39 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\studentmanagementsystem-prg282project\\businesslayer\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\businesslayer\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\presentationlayer\\deleteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\deleteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\updateinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\businesslayer\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\businesslayer\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\datalayer\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\datalayer\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\businesslayer\\deletebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\businesslayer\\deletebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|c:\\users\\caydan\\documents\\bc work\\prg282\\project\\prg282-project\\studentmanagementsystem-prg282project\\studentmanagementsystem-prg282project\\datalayer\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\studentmanagementsystem-prg282project\\datalayer\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\datalayer\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 9,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAjwJ4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:07:04.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
@@ -99,85 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwCcAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:33:45.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteForm.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:26:15.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteButton.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:25:04.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Update.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:24:08.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAWwIIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:46:45.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FileHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
-              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAMwB0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:56:19.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UpdateInfo.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
@@ -186,6 +79,44 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T13:46:21.04Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
+              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
+              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCcAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:33:45.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cs",
+              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
+              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
+              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:24:08.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
+              "ToolTip": "C:\\Users\\Caydan\\Documents\\BC Work\\PRG282\\Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
+              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAD4v1AAAACrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T13:46:45.898Z",
+              "EditorCaption": ""
             }
           ]
         }
