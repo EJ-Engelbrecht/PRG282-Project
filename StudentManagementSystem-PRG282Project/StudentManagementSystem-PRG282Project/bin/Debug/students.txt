@@ -1,4 +1,3 @@
-Student ID,First Name,Last Name,Date Of Birth,Email,Course,Address,Cellphone No.
 600237,Dall,Elsley,2003-10-15,600237@student.belgiumcampus.ac.za,BCOMP,123 Maple St, (123) 456-7890
 601582,Aldis,Smallcomb,2001-10-15,601582@student.belgiumcampus.ac.za,BIT,456 Oak Ave, (234) 567-8901
 602417,Benedict,Januszewicz,2002-10-15,602417@student.belgiumcampus.ac.za,DIT,789 Pine Blvd, (345) 678-9012
