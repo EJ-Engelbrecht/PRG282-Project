@@ -34,15 +34,15 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             try
             {
+                table.Rows.Clear();
 
                 int idSearch = int.Parse(idInput.Text);
 
                 bool found = false;
                 foreach (Student student in fileHandler.students)
                 {
-                    if (student.StudentID == idSearch)
+                    if (student.StudentID.ToString().StartsWith(idSearch.ToString()) && idInput.Text != null)
                     {
-                        table.Rows.Clear();
                         table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);
                         found = true;
                     }
@@ -58,7 +58,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                 MessageBox.Show("Not a valid Student ID: " + ex.Message);
 
             }
-
         }
 
         private void updateBtn_Click(object sender, EventArgs e)
@@ -107,6 +106,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         private void clearBtn_Click(object sender, EventArgs e)
         {
             table.Rows.Clear();
+            idInput.Text = "";
             foreach (Student student in fileHandler.students)
             {
                 table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);

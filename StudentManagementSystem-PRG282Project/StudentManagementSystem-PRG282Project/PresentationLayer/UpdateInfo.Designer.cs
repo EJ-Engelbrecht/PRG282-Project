@@ -34,6 +34,7 @@
             this.idLabel = new System.Windows.Forms.Label();
             this.updateBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.courseComboBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.celltxt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -51,14 +52,15 @@
             this.studentIDtxt = new System.Windows.Forms.TextBox();
             this.clearBtn = new System.Windows.Forms.Button();
             this.backBtn = new System.Windows.Forms.Button();
-            this.courseComboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataGridView1.Location = new System.Drawing.Point(32, 22);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -69,47 +71,53 @@
             // 
             // searchBtn
             // 
+            this.searchBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.searchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.searchBtn.Location = new System.Drawing.Point(32, 279);
+            this.searchBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.searchBtn.Location = new System.Drawing.Point(7, 294);
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(129, 41);
+            this.searchBtn.Size = new System.Drawing.Size(119, 42);
             this.searchBtn.TabIndex = 1;
             this.searchBtn.Text = "Search";
-            this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.UseVisualStyleBackColor = false;
             this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // idInput
             // 
             this.idInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.idInput.Location = new System.Drawing.Point(32, 238);
+            this.idInput.Location = new System.Drawing.Point(50, 240);
+            this.idInput.MaxLength = 6;
             this.idInput.Name = "idInput";
-            this.idInput.Size = new System.Drawing.Size(152, 30);
+            this.idInput.Size = new System.Drawing.Size(129, 30);
             this.idInput.TabIndex = 2;
             // 
             // idLabel
             // 
             this.idLabel.AutoSize = true;
-            this.idLabel.Location = new System.Drawing.Point(29, 207);
+            this.idLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.idLabel.Location = new System.Drawing.Point(12, 195);
             this.idLabel.Name = "idLabel";
-            this.idLabel.Size = new System.Drawing.Size(132, 16);
+            this.idLabel.Size = new System.Drawing.Size(218, 25);
             this.idLabel.TabIndex = 3;
             this.idLabel.Text = "Search by Student ID";
             // 
             // updateBtn
             // 
+            this.updateBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.updateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.updateBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.updateBtn.Location = new System.Drawing.Point(580, 363);
+            this.updateBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.updateBtn.Location = new System.Drawing.Point(542, 337);
             this.updateBtn.Name = "updateBtn";
-            this.updateBtn.Size = new System.Drawing.Size(121, 43);
+            this.updateBtn.Size = new System.Drawing.Size(129, 42);
             this.updateBtn.TabIndex = 4;
             this.updateBtn.Text = "Update";
-            this.updateBtn.UseVisualStyleBackColor = true;
+            this.updateBtn.UseVisualStyleBackColor = false;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.groupBox1.Controls.Add(this.courseComboBox);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.celltxt);
@@ -127,19 +135,36 @@
             this.groupBox1.Controls.Add(this.lastNametxt);
             this.groupBox1.Controls.Add(this.firstNametxt);
             this.groupBox1.Controls.Add(this.studentIDtxt);
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(227, 195);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.groupBox1.Location = new System.Drawing.Point(266, 195);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(727, 427);
+            this.groupBox1.Size = new System.Drawing.Size(688, 427);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Details";
+            // 
+            // courseComboBox
+            // 
+            this.courseComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.courseComboBox.FormattingEnabled = true;
+            this.courseComboBox.Items.AddRange(new object[] {
+            "BCOMP",
+            "BIT",
+            "DIT",
+            "BCOMP",
+            "BIT",
+            "DIT"});
+            this.courseComboBox.Location = new System.Drawing.Point(189, 255);
+            this.courseComboBox.Name = "courseComboBox";
+            this.courseComboBox.Size = new System.Drawing.Size(323, 33);
+            this.courseComboBox.TabIndex = 20;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(35, 350);
+            this.label8.Location = new System.Drawing.Point(82, 349);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(101, 25);
             this.label8.TabIndex = 19;
@@ -148,7 +173,7 @@
             // celltxt
             // 
             this.celltxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.celltxt.Location = new System.Drawing.Point(189, 350);
+            this.celltxt.Location = new System.Drawing.Point(189, 342);
             this.celltxt.Name = "celltxt";
             this.celltxt.Size = new System.Drawing.Size(323, 30);
             this.celltxt.TabIndex = 18;
@@ -157,7 +182,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(35, 302);
+            this.label7.Location = new System.Drawing.Point(98, 306);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 25);
             this.label7.TabIndex = 17;
@@ -166,7 +191,7 @@
             // addresstxt
             // 
             this.addresstxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.addresstxt.Location = new System.Drawing.Point(189, 302);
+            this.addresstxt.Location = new System.Drawing.Point(189, 300);
             this.addresstxt.Name = "addresstxt";
             this.addresstxt.Size = new System.Drawing.Size(323, 30);
             this.addresstxt.TabIndex = 16;
@@ -175,7 +200,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(35, 220);
+            this.label6.Location = new System.Drawing.Point(123, 220);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 25);
             this.label6.TabIndex = 15;
@@ -185,7 +210,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(35, 175);
+            this.label5.Location = new System.Drawing.Point(65, 177);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(118, 25);
             this.label5.TabIndex = 14;
@@ -195,7 +220,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(35, 132);
+            this.label4.Location = new System.Drawing.Point(77, 134);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 25);
             this.label4.TabIndex = 13;
@@ -205,7 +230,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(35, 257);
+            this.label3.Location = new System.Drawing.Point(107, 263);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 25);
             this.label3.TabIndex = 13;
@@ -215,7 +240,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(35, 89);
+            this.label2.Location = new System.Drawing.Point(77, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 25);
             this.label2.TabIndex = 12;
@@ -225,16 +250,16 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(35, 48);
+            this.label1.Location = new System.Drawing.Point(79, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 25);
+            this.label1.Size = new System.Drawing.Size(104, 25);
             this.label1.TabIndex = 6;
-            this.label1.Text = "StudentID";
+            this.label1.Text = "Student ID";
             // 
             // emailtxt
             // 
             this.emailtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.emailtxt.Location = new System.Drawing.Point(189, 215);
+            this.emailtxt.Location = new System.Drawing.Point(189, 213);
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.ReadOnly = true;
             this.emailtxt.Size = new System.Drawing.Size(323, 30);
@@ -243,7 +268,7 @@
             // DOBtxt
             // 
             this.DOBtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.DOBtxt.Location = new System.Drawing.Point(189, 175);
+            this.DOBtxt.Location = new System.Drawing.Point(189, 171);
             this.DOBtxt.Name = "DOBtxt";
             this.DOBtxt.Size = new System.Drawing.Size(323, 30);
             this.DOBtxt.TabIndex = 9;
@@ -251,7 +276,7 @@
             // lastNametxt
             // 
             this.lastNametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lastNametxt.Location = new System.Drawing.Point(189, 132);
+            this.lastNametxt.Location = new System.Drawing.Point(189, 129);
             this.lastNametxt.Name = "lastNametxt";
             this.lastNametxt.Size = new System.Drawing.Size(323, 30);
             this.lastNametxt.TabIndex = 8;
@@ -259,7 +284,7 @@
             // firstNametxt
             // 
             this.firstNametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.firstNametxt.Location = new System.Drawing.Point(189, 95);
+            this.firstNametxt.Location = new System.Drawing.Point(189, 87);
             this.firstNametxt.Name = "firstNametxt";
             this.firstNametxt.Size = new System.Drawing.Size(323, 30);
             this.firstNametxt.TabIndex = 7;
@@ -267,7 +292,8 @@
             // studentIDtxt
             // 
             this.studentIDtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.studentIDtxt.Location = new System.Drawing.Point(189, 54);
+            this.studentIDtxt.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.studentIDtxt.Location = new System.Drawing.Point(189, 45);
             this.studentIDtxt.Name = "studentIDtxt";
             this.studentIDtxt.ReadOnly = true;
             this.studentIDtxt.Size = new System.Drawing.Size(323, 30);
@@ -275,44 +301,36 @@
             // 
             // clearBtn
             // 
+            this.clearBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.clearBtn.Location = new System.Drawing.Point(32, 355);
+            this.clearBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.clearBtn.Location = new System.Drawing.Point(132, 294);
             this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(129, 37);
+            this.clearBtn.Size = new System.Drawing.Size(119, 42);
             this.clearBtn.TabIndex = 6;
             this.clearBtn.Text = "Clear";
-            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.UseVisualStyleBackColor = false;
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // backBtn
             // 
+            this.backBtn.BackColor = System.Drawing.Color.SteelBlue;
             this.backBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.backBtn.Location = new System.Drawing.Point(32, 591);
+            this.backBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.backBtn.Location = new System.Drawing.Point(7, 580);
             this.backBtn.Name = "backBtn";
             this.backBtn.Size = new System.Drawing.Size(129, 42);
             this.backBtn.TabIndex = 7;
             this.backBtn.Text = "Return";
-            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.UseVisualStyleBackColor = false;
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
-            // 
-            // courseComboBox
-            // 
-            this.courseComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.courseComboBox.FormattingEnabled = true;
-            this.courseComboBox.Items.AddRange(new object[] {
-            "BCOMP",
-            "BIT",
-            "DIT"});
-            this.courseComboBox.Location = new System.Drawing.Point(189, 257);
-            this.courseComboBox.Name = "courseComboBox";
-            this.courseComboBox.Size = new System.Drawing.Size(323, 33);
-            this.courseComboBox.TabIndex = 20;
             // 
             // UpdateInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(987, 674);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(987, 645);
             this.Controls.Add(this.backBtn);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.groupBox1);
