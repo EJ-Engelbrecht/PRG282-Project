@@ -153,16 +153,17 @@ namespace StudentManagementSystem_PRG282Project
         {
             this.Hide();
             DeleteForm DF = new DeleteForm();
-            //DF.Closed += (s, args) => this.Close();
-            DF.ShowDialog();
+            DF.FormClosed += (s, args) => this.Show(); // Show the main form when DeleteForm is closed
+            DF.Show(); // Open DeleteForm as a modal dialog
         }
+
 
         private void updateStudent_Click(object sender, EventArgs e)
         {
             this.Hide();
             var updateInfoForm = new UpdateInfo();
-            //updateInfoForm.Closed += (s, args) => this.Close();
-            updateInfoForm.Show();
+            updateInfoForm.Closed += (s, args) => this.Show();
+            updateInfoForm.ShowDialog();
         }
 
         private void viewAllStudents_Click(object sender, EventArgs e)

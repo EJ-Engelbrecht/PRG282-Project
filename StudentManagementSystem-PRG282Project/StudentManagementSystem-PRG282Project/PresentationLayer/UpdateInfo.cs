@@ -115,9 +115,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
         private void backBtn_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
             this.Close();
-            form1.Show();
         }
     }
 }

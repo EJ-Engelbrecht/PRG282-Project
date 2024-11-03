@@ -30,10 +30,9 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Form1 form1 = new Form1();
-            form1.Show();
+            this.Close(); // Close DeleteForm
         }
+
         DataTable table = new DataTable();
         private void DeleteForm_Load(object sender, EventArgs e)
         {
