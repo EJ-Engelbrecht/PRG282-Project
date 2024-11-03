@@ -168,7 +168,10 @@ namespace StudentManagementSystem_PRG282Project
 
         private void viewAllStudents_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            var viewAllForm= new ViewAllForm();
+            viewAllForm.Closed += (s, args) => this.Show();
+            viewAllForm.ShowDialog();
         }
     }
 }

@@ -36,3 +36,6 @@ C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagemen
 >>>>>>> Stashed changes
 C:\Users\Caydan\Documents\BC Work\PRG282\Project\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.DeleteForm.resources
 C:\Users\chesa\OneDrive\Desktop\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.UpdateInfo.resources
+C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.DeleteForm.resources
+C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.UpdateInfo.resources
+C:\Users\Caitlin\Documents\GitHub\PRG282-Project\StudentManagementSystem-PRG282Project\StudentManagementSystem-PRG282Project\obj\Debug\StudentManagementSystem_PRG282Project.PresentationLayer.ViewAllForm.resources
