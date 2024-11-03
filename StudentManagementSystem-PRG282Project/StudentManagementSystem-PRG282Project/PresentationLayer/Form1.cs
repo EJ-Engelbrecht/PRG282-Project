@@ -1,4 +1,5 @@
-﻿using StudentManagementSystem_PRG282Project.DataLayer;
+﻿using StudentManagementSystem_PRG282Project.BusinessLayer;
+using StudentManagementSystem_PRG282Project.DataLayer;
 using StudentManagementSystem_PRG282Project.PresentationLayer;
 using System;
 using System.Collections.Generic;
@@ -37,9 +38,9 @@ namespace StudentManagementSystem_PRG282Project
             this.viewAllStudents.BackColor = System.Drawing.Color.SteelBlue;
             this.viewAllStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewAllStudents.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.viewAllStudents.Location = new System.Drawing.Point(105, 231);
+            this.viewAllStudents.Location = new System.Drawing.Point(105, 226);
             this.viewAllStudents.Name = "viewAllStudents";
-            this.viewAllStudents.Size = new System.Drawing.Size(126, 52);
+            this.viewAllStudents.Size = new System.Drawing.Size(126, 53);
             this.viewAllStudents.TabIndex = 0;
             this.viewAllStudents.Text = "View all students";
             this.viewAllStudents.UseVisualStyleBackColor = false;
@@ -94,6 +95,7 @@ namespace StudentManagementSystem_PRG282Project
             this.generateReport.TabIndex = 4;
             this.generateReport.Text = "Summary report";
             this.generateReport.UseVisualStyleBackColor = false;
+            this.generateReport.Click += new System.EventHandler(this.generateReport_Click);
             // 
             // pictureBox1
             // 
@@ -172,6 +174,14 @@ namespace StudentManagementSystem_PRG282Project
             var viewAllForm= new ViewAllForm();
             viewAllForm.Closed += (s, args) => this.Show();
             viewAllForm.ShowDialog();
+        }
+
+        private void generateReport_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SummaryForm summaryForm = new SummaryForm();
+            summaryForm.Closed += (s, args) => this.Show();
+            summaryForm.ShowDialog();
         }
     }
 }
