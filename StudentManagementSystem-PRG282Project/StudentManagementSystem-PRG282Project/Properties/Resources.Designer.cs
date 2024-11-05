@@ -113,6 +113,16 @@ namespace StudentManagementSystem_PRG282Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DeleteStudent {
+            get {
+                object obj = ResourceManager.GetObject("DeleteStudent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pexels_cottonbro_6333730 {
             get {
                 object obj = ResourceManager.GetObject("pexels-cottonbro-6333730", resourceCulture);

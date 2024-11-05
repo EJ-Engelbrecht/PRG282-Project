@@ -121,7 +121,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\DeleteStudent.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pexels-cottonbro-6333730.jpg" />
   </ItemGroup>
