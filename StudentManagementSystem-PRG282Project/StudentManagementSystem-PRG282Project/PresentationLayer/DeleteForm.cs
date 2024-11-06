@@ -27,7 +27,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             DialogResult result = MessageBox.Show("Are you sure you want to delete a student?", "Confirm Delete?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                Delete.DeleteRecordFromFile(dataGridView1.CurrentRow.Index, dataGridView1);
+                fh.DeleteRecordFromFile(dataGridView1.CurrentRow.Index, dataGridView1);
                 MessageBox.Show("Student has been removed.");
 
             }

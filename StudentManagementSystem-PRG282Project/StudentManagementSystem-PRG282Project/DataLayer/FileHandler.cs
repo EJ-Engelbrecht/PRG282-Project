@@ -71,7 +71,36 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
         }
 
+        //Delete Form Code
+        public void DeleteRecordFromFile(int rowIndex, DataGridView datagridview1)
+        {
+            if (rowIndex < 0 || rowIndex >= datagridview1.Rows.Count)
+            {
+                MessageBox.Show("Invalid row selected.");
+                return;
+            }
 
+            string tempStudentTxt = Path.GetTempFileName();
+
+            using (var sr = new StreamReader(path))
+            using (var sw = new StreamWriter(tempStudentTxt))
+            {
+                int rowcounter = 0;
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    if (rowcounter != rowIndex)
+                    {
+                        sw.WriteLine(line);
+                    }
+                    rowcounter++;
+                }
+            }
+
+            File.Delete(path);
+            File.Move(tempStudentTxt, path);
+            datagridview1.Rows.RemoveAt(rowIndex);
+        }
 
 
         public void DataTableDisplay(DataGridView datagridview1)
