@@ -116,6 +116,20 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         private void backBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
+
+        private void btnAddStudent_Click(object sender, EventArgs e)
+        {
+            int Id = Student.NewID(courseComboBox.Text);
+            string email = Student.NewEmail(Id);
+
+            Student NewStudent = new Student(Id, firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), email, courseComboBox.Text, addresstxt.Text, celltxt.Text);
+
+            fileHandler.AddStudent(NewStudent);
+
+            //UpdateInfo_Load(sender, e); // Need to put method to refresh the table
         }
     }
 }

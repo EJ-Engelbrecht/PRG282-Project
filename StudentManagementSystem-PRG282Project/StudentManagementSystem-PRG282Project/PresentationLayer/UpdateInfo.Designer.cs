@@ -34,17 +34,18 @@
             this.idLabel = new System.Windows.Forms.Label();
             this.updateBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnAddStudent = new System.Windows.Forms.Button();
             this.courseComboBox = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.celltxt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.addresstxt = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblStudentId = new System.Windows.Forms.Label();
             this.emailtxt = new System.Windows.Forms.TextBox();
             this.DOBtxt = new System.Windows.Forms.TextBox();
             this.lastNametxt = new System.Windows.Forms.TextBox();
@@ -118,18 +119,19 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.groupBox1.Controls.Add(this.btnAddStudent);
             this.groupBox1.Controls.Add(this.courseComboBox);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.celltxt);
             this.groupBox1.Controls.Add(this.updateBtn);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.addresstxt);
-            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.lblEmail);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblStudentId);
             this.groupBox1.Controls.Add(this.emailtxt);
             this.groupBox1.Controls.Add(this.DOBtxt);
             this.groupBox1.Controls.Add(this.lastNametxt);
@@ -144,6 +146,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Details";
             // 
+            // btnAddStudent
+            // 
+            this.btnAddStudent.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAddStudent.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAddStudent.Location = new System.Drawing.Point(542, 263);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(129, 42);
+            this.btnAddStudent.TabIndex = 21;
+            this.btnAddStudent.Text = "Add Student";
+            this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
+            // 
             // courseComboBox
             // 
             this.courseComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -151,11 +166,8 @@
             this.courseComboBox.Items.AddRange(new object[] {
             "BCOMP",
             "BIT",
-            "DIT",
-            "BCOMP",
-            "BIT",
             "DIT"});
-            this.courseComboBox.Location = new System.Drawing.Point(189, 255);
+            this.courseComboBox.Location = new System.Drawing.Point(189, 217);
             this.courseComboBox.Name = "courseComboBox";
             this.courseComboBox.Size = new System.Drawing.Size(323, 33);
             this.courseComboBox.TabIndex = 20;
@@ -164,7 +176,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(82, 349);
+            this.label8.Location = new System.Drawing.Point(82, 311);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(101, 25);
             this.label8.TabIndex = 19;
@@ -173,7 +185,7 @@
             // celltxt
             // 
             this.celltxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.celltxt.Location = new System.Drawing.Point(189, 342);
+            this.celltxt.Location = new System.Drawing.Point(189, 304);
             this.celltxt.Name = "celltxt";
             this.celltxt.Size = new System.Drawing.Size(323, 30);
             this.celltxt.TabIndex = 18;
@@ -182,7 +194,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(98, 306);
+            this.label7.Location = new System.Drawing.Point(98, 268);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 25);
             this.label7.TabIndex = 17;
@@ -191,20 +203,20 @@
             // addresstxt
             // 
             this.addresstxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.addresstxt.Location = new System.Drawing.Point(189, 300);
+            this.addresstxt.Location = new System.Drawing.Point(189, 262);
             this.addresstxt.Name = "addresstxt";
             this.addresstxt.Size = new System.Drawing.Size(323, 30);
             this.addresstxt.TabIndex = 16;
             // 
-            // label6
+            // lblEmail
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(123, 220);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 25);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Email";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblEmail.Location = new System.Drawing.Point(123, 354);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(60, 25);
+            this.lblEmail.TabIndex = 15;
+            this.lblEmail.Text = "Email";
             // 
             // label5
             // 
@@ -230,7 +242,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(107, 263);
+            this.label3.Location = new System.Drawing.Point(107, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 25);
             this.label3.TabIndex = 13;
@@ -246,20 +258,20 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "First Name";
             // 
-            // label1
+            // lblStudentId
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(79, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 25);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Student ID";
+            this.lblStudentId.AutoSize = true;
+            this.lblStudentId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblStudentId.Location = new System.Drawing.Point(79, 48);
+            this.lblStudentId.Name = "lblStudentId";
+            this.lblStudentId.Size = new System.Drawing.Size(104, 25);
+            this.lblStudentId.TabIndex = 6;
+            this.lblStudentId.Text = "Student ID";
             // 
             // emailtxt
             // 
             this.emailtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.emailtxt.Location = new System.Drawing.Point(189, 213);
+            this.emailtxt.Location = new System.Drawing.Point(189, 347);
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.ReadOnly = true;
             this.emailtxt.Size = new System.Drawing.Size(323, 30);
@@ -354,22 +366,20 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button searchBtn;
+        public  System.Windows.Forms.Button searchBtn;
         private System.Windows.Forms.TextBox idInput;
         private System.Windows.Forms.Label idLabel;
-        private System.Windows.Forms.Button updateBtn;
+        public  System.Windows.Forms.Button updateBtn;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox emailtxt;
+        public  System.Windows.Forms.TextBox emailtxt;
         private System.Windows.Forms.TextBox DOBtxt;
         private System.Windows.Forms.TextBox lastNametxt;
         private System.Windows.Forms.TextBox firstNametxt;
-        private System.Windows.Forms.TextBox studentIDtxt;
-        private System.Windows.Forms.Label label6;
+        public  System.Windows.Forms.TextBox studentIDtxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox celltxt;
         private System.Windows.Forms.Label label7;
@@ -377,5 +387,8 @@
         private System.Windows.Forms.Button clearBtn;
         private System.Windows.Forms.Button backBtn;
         private System.Windows.Forms.ComboBox courseComboBox;
+        public  System.Windows.Forms.Button btnAddStudent;
+        public  System.Windows.Forms.Label lblEmail;
+        public  System.Windows.Forms.Label lblStudentId;
     }
 }

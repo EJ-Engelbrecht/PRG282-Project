@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLayer\AddStudent.cs" />
     <Compile Include="BusinessLayer\DeleteButton.cs" />
     <Compile Include="BusinessLayer\Summary.cs" />
     <Compile Include="BusinessLayer\Update.cs" />

@@ -57,6 +57,7 @@ namespace StudentManagementSystem_PRG282Project
             this.addStudent.TabIndex = 1;
             this.addStudent.Text = "Add student";
             this.addStudent.UseVisualStyleBackColor = false;
+            this.addStudent.Click += new System.EventHandler(this.addStudent_Click);
             // 
             // updateStudent
             // 
@@ -183,5 +184,23 @@ namespace StudentManagementSystem_PRG282Project
             summaryForm.Closed += (s, args) => this.Show();
             summaryForm.ShowDialog();
         }
+
+        private void addStudent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UpdateInfo updateInfo = new UpdateInfo();
+            updateInfo.updateBtn.Visible = false;
+            updateInfo.studentIDtxt.Visible = false;
+            updateInfo.lblStudentId.Visible = false;
+            updateInfo.emailtxt.Visible = false;
+            updateInfo.lblEmail.Visible = false;
+            
+            updateInfo.Show();
+        }
+
+        //private void viewAllStudents_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

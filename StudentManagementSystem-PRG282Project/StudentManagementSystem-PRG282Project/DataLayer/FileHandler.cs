@@ -45,9 +45,38 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             }
         }
 
-        //public void DataTableDisplay(DataGridView datagridview1)
-        //{
-        //    DataTable table = new DataTable();
+        public void AddStudent(Student student)
+        {
+            try
+            {
+                using (FileStream fs = new FileStream(path, FileMode.Append))
+                {
+                    using (StreamWriter sr = new StreamWriter(fs))
+                    {
+                        string StudentInfo = student.txtString();
+
+                        sr.WriteLine(StudentInfo);
+
+
+                    }
+
+                }
+                MessageBox.Show("Student added Successfully");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+           
+
+        }
+
+
+
+
+        public void DataTableDisplay(DataGridView datagridview1)
+        {
+            DataTable table = new DataTable();
 
         //    using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
         //    {
@@ -78,7 +107,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         //        }
         //    }
         //    datagridview1.DataSource = table;
-        //}
+        }
 
         public void DataTableDisplay(DataTable table, DataGridView dataGridView)
         {

@@ -39,5 +39,40 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         {
             return $"{StudentID},{FirstName},{LastName},{DateOfBirth},{Email},{Course},{Address},{CellNum}";
         }
+
+        public static int NewID(string course)
+        {
+            string year = Convert.ToString(DateTime.Now.Year - 1964);
+            switch (course)
+            {
+                case "BCOMP": 
+                    year += "1";
+                    break;
+
+                case "BIT":
+                    year += "2";
+                    break;
+
+                case "DIT":
+                    year += "3";
+                    break;
+            }
+
+            // potentially get the last line of  the text file
+            Random random = new Random();
+            year += Convert.ToString(random.Next(0,10));
+            year += Convert.ToString(random.Next(0,10));
+            year += Convert.ToString(random.Next(0,10));
+
+            return Convert.ToInt32(year);
+
+        }
+
+        public static string NewEmail(int studentId)
+        {
+            string email = Convert.ToString(studentId)+ "@student.belgiumcampus.ac.za";
+            return email;
+        }
+
     }
 }
