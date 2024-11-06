@@ -24,8 +24,18 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
         private void btnDeleteStudent_Click(object sender, EventArgs e)
         {
-            Delete.DeleteRecordFromFile(dataGridView1.CurrentRow.Index, dataGridView1);
-            MessageBox.Show("Student has been removed.");
+            DialogResult result = MessageBox.Show("Are you sure you want to delete a student?", "Confirm Delete?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Delete.DeleteRecordFromFile(dataGridView1.CurrentRow.Index, dataGridView1);
+                MessageBox.Show("Student has been removed.");
+
+            }
+            else
+            {
+                MessageBox.Show("Canceled Deletion");
+            }
+
         }
 
         private void btnReturn_Click(object sender, EventArgs e)

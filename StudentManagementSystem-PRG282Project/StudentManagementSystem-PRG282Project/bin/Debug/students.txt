@@ -1,6 +1,6 @@
-600237,Dallas,Elsley,2003/10/15 00:00:00,600237@student.belgiumcampus.ac.za,BCOMP,123 Maple St, (123) 456-7890
+600237,Dall,Elsley,2003-10-15,600237@student.belgiumcampus.ac.za,BCOMP,123 Maple St, (123) 456-7890
 601582,Aldis,Smallcomb,2001-10-15,601582@student.belgiumcampus.ac.za,BIT,456 Oak Ave, (234) 567-8901
-602417,Benedict,Cumberbatch,2002/10/15 00:00:00,602417@student.belgiumcampus.ac.za,BIT,789 Pine Blvd, (345) 678-9012
+602417,Benedict,Januszewicz,2002-10-15,602417@student.belgiumcampus.ac.za,DIT,789 Pine Blvd, (345) 678-9012
 603254,Aloin,Rundle,2004-10-15,603254@student.belgiumcampus.ac.za,BIT,101 Cedar Rd, (456) 789-0123
 604836,Percy,Cloney,2000-10-15,604836@student.belgiumcampus.ac.za,BCOMP,202 Birch Ln, (567) 890-1234
 605931,Cyndi,Boulden,1999-10-15,605931@student.belgiumcampus.ac.za,DIT,303 Walnut St, (678) 901-2345
@@ -28,5 +28,3 @@
 627533,Lin,Halburton,2003-10-15,627533@student.belgiumcampus.ac.za,BCOMP,404 Cedar Rd, (890) 123-4567
 628214,Verile,Bustin,2004-10-15,628214@student.belgiumcampus.ac.za,BIT,505 Birch Ln, (901) 234-5678
 629868,Griffin,Rigbye,1999-10-15,629868@student.belgiumcampus.ac.za,DIT,606 Walnut St, (012) 345-6789
-601678,Joseph,Pereira,2002/02/02 00:00:00,601678@student.belgiumcampus.ac.za,BCOMP,732 Pine Road,072 334 3455
-601818,Jeff,Doe,2000/01/01 00:00:00,601818@student.belgiumcampus.ac.za,BCOMP,13 Nelson Mandela dr,072 345 678
