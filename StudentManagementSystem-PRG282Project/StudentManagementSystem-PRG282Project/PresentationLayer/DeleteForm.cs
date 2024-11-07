@@ -16,7 +16,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
     public partial class DeleteForm : Form
     {
         FileHandler fh = new FileHandler();
-        DeleteButton Delete = new DeleteButton();
         public DeleteForm()
         {
             InitializeComponent();

@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\presentationlayer\\deleteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\studentmanagementsystem-prg282project\\businesslayer\\deletebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\businesslayer\\deletebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\studentmanagementsystem-prg282project\\datalayer\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{061D29CD-0178-4B68-8B84-32D99368CE45}|StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project.csproj|solutionrelative:studentmanagementsystem-prg282project\\datalayer\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -92,14 +88,14 @@
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
               "ToolTip": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
               "RelativeToolTip": "StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwB4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwBEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T08:33:45.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UpdateInfo.cs [Design]",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
@@ -110,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
@@ -129,25 +125,11 @@
               "ToolTip": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs [Design]",
               "RelativeToolTip": "StudentManagementSystem-PRG282Project\\PresentationLayer\\DeleteForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:33:44.931Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-03T08:33:44.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeleteButton.cs",
-              "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "ToolTip": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "RelativeToolTip": "StudentManagementSystem-PRG282Project\\BusinessLayer\\DeleteButton.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:33:45.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "FileHandler.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
@@ -155,12 +137,11 @@
               "RelativeToolTip": "StudentManagementSystem-PRG282Project\\DataLayer\\FileHandler.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAUwGQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:33:44.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T08:33:44.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Summary.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\Summary.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\BusinessLayer\\Summary.cs",
@@ -172,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UpdateInfo.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.cs",
@@ -184,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "UpdateInfo.Designer.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.Designer.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\UpdateInfo.Designer.cs",
@@ -196,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\PresentationLayer\\Form1.cs",
@@ -207,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\DataLayer\\Student.cs",
@@ -219,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Update.cs",
               "DocumentMoniker": "C:\\Users\\chesa\\Desktop\\PRG282\\PRG282-Project\\PRG282-Project\\StudentManagementSystem-PRG282Project\\StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem-PRG282Project\\BusinessLayer\\Update.cs",
