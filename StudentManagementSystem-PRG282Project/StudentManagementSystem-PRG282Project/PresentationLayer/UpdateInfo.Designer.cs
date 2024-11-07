@@ -386,7 +386,7 @@
         private System.Windows.Forms.TextBox addresstxt;
         private System.Windows.Forms.Button clearBtn;
         private System.Windows.Forms.Button backBtn;
-        private System.Windows.Forms.ComboBox courseComboBox;
+        public  System.Windows.Forms.ComboBox courseComboBox;
         public  System.Windows.Forms.Button btnAddStudent;
         public  System.Windows.Forms.Label lblEmail;
         public  System.Windows.Forms.Label lblStudentId;

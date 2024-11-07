@@ -122,12 +122,27 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-            int Id = Student.NewID(courseComboBox.Text);
-            string email = Student.NewEmail(Id);
+            try
+            {
+                int Id = Student.NewID(courseComboBox.Text);// still need to add check for text file
+                string email = Student.NewEmail(Id);
+                Validation v = new Validation();
+                bool ans = v.ValidateStudent(firstNametxt.Text, lastNametxt.Text, DOBtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
 
-            Student NewStudent = new Student(Id, firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), email, courseComboBox.Text, addresstxt.Text, celltxt.Text);
+                if (ans)
+                {
+                    Student NewStudent = new Student(Id, firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), email, courseComboBox.Text, addresstxt.Text, celltxt.Text);
 
-            fileHandler.AddStudent(NewStudent);
+
+                    fileHandler.AddStudent(NewStudent);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Something went wrong :/\n" + ex);
+            }
+            
+
 
             //UpdateInfo_Load(sender, e); // Need to put method to refresh the table
         }
