@@ -78,30 +78,37 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             if (rowIndex < 0 || rowIndex >= datagridview1.Rows.Count)
             {
                 MessageBox.Show($"Invalid row selected", "Delete Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                MessageBox.Show("Invalid row selected.");
                 return;
             }
 
             string tempStudentTxt = Path.GetTempFileName();
 
-            using (var sr = new StreamReader(path))
-            using (var sw = new StreamWriter(tempStudentTxt))
+            try
             {
-                int rowcounter = 0;
-                string line;
-                while ((line = sr.ReadLine()) != null)
+                using (var sr = new StreamReader(path))
+                using (var sw = new StreamWriter(tempStudentTxt))
                 {
-                    if (rowcounter != rowIndex)
+                    int rowcounter = 0;
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
                     {
-                        sw.WriteLine(line);
+                        if (rowcounter != rowIndex)
+                        {
+                            sw.WriteLine(line);
+                        }
+                        rowcounter++;
                     }
-                    rowcounter++;
                 }
-            }
 
-            File.Delete(path);
-            File.Move(tempStudentTxt, path);
-            datagridview1.Rows.RemoveAt(rowIndex);
+                File.Delete(path);
+                File.Move(tempStudentTxt, path);
+                datagridview1.Rows.RemoveAt(rowIndex);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error Occured {ex.Message}", "Delete Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
 
