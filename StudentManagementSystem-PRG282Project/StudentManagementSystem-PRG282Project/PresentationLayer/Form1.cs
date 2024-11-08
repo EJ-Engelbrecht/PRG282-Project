@@ -166,6 +166,7 @@ namespace StudentManagementSystem_PRG282Project
             this.Hide();
             var updateInfoForm = new UpdateInfo();
             updateInfoForm.Closed += (s, args) => this.Show();
+            updateInfoForm.btnAddStudent.Visible = false;
             updateInfoForm.Show();
         }
 
