@@ -27,12 +27,12 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             if (result == DialogResult.Yes)
             {
                 fh.DeleteRecordFromFile(dataGridView1.CurrentRow.Index, dataGridView1);
-                MessageBox.Show("Student has been removed.");
+                MessageBox.Show($"Student has been removed", "Delete Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             else
             {
-                MessageBox.Show("Canceled Deletion");
+                MessageBox.Show($"Canceled Deletion", "Delete Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }

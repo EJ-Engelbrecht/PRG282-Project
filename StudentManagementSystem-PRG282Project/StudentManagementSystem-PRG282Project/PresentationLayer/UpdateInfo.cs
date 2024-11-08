@@ -49,13 +49,13 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                 }
                 if (!found)
                 {
-                    MessageBox.Show("No Student found with that ID");
+                    MessageBox.Show($"No student found with that ID", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Not a valid Student ID: " + ex.Message);
+                MessageBox.Show($"Not a valid Student ID: {ex.Message}", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
         }
@@ -64,12 +64,11 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             Update update = new Update();
 
-            Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
-
             try
             {
+                Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
                 update.updateStudent(editStudent);
-                MessageBox.Show("Successfully Updated Student");
+                MessageBox.Show($"Successfully updated Student", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 fileHandler.Reader();
                 table.Rows.Clear();
                 foreach (Student student in fileHandler.students)
@@ -79,7 +78,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error While Updating: " + ex.Message);
+                MessageBox.Show($"Error while Updating {ex.Message}", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -138,7 +137,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Something went wrong :/\n" + ex);
+                MessageBox.Show($"Something went wrong: \n{ex.Message}", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
 

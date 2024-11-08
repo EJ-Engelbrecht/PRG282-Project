@@ -21,7 +21,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         {
             if (File.Exists(path))
             {
-                MessageBox.Show("I exist");
+                MessageBox.Show($"File Exists", "File", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -61,10 +61,11 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
                     }
 
                 }
-                MessageBox.Show("Student added Successfully");
+                MessageBox.Show("Student added Successfully", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
+                MessageBox.Show($"{ex.Message}", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 MessageBox.Show(ex.Message);
             }
            
@@ -76,6 +77,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         {
             if (rowIndex < 0 || rowIndex >= datagridview1.Rows.Count)
             {
+                MessageBox.Show($"Invalid row selected", "Delete Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 MessageBox.Show("Invalid row selected.");
                 return;
             }
