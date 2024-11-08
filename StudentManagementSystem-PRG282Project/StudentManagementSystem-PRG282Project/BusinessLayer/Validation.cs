@@ -68,7 +68,7 @@ namespace StudentManagementSystem_PRG282Project.BusinessLayer
                 return false;
             }
 
-
+            
         }
 
         public bool ValidCourse(string course)

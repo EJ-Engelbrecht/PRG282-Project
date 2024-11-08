@@ -170,7 +170,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             dataGridView.DataSource = table;
         }
 
-<<<<<<< Updated upstream
+
         public void updateStudent(Student student)
         {
 
@@ -204,14 +204,14 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
         }
 
-=======
+
         public void WriteToSummaryFile() //put in fh
         {
          string path = @"summary.txt";
          Summary summary = new Summary();
            
             Reader();
->>>>>>> Stashed changes
+
 
             try
             {

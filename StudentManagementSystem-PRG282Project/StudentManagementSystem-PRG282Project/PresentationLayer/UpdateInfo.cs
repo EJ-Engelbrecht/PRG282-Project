@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace StudentManagementSystem_PRG282Project.PresentationLayer
 {
@@ -17,6 +18,8 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         //New FileHandler Object And DataTabkle object
         FileHandler fileHandler = new FileHandler();
         DataTable table = new DataTable();
+
+
         public UpdateInfo()
         {
             InitializeComponent();
@@ -63,23 +66,33 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         //When the user clicks the update button, checks whether a row was selected from the datatable, then whatever information is currently in the input boxes, will overwrite the existing information for the selected student. Error messages show incase of no selected student, or an Exception is caught.
         private void updateBtn_Click(object sender, EventArgs e)
         {
-            
+            Validation validation = new Validation();
             DataGridViewRow row = dataGridView1.Rows[indexRow];
+            bool ans = validation.ValidateStudent(firstNametxt.Text, lastNametxt.Text, DOBtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
 
             try
             {
                 if (row != null)
                 {
 
-                    Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
 
-                    fileHandler.updateStudent(editStudent);
 
-                    MessageBox.Show($"Successfully updated Student", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (ans)
+                    {
+                        Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
 
-                    fileHandler.Reader();
-                    table.Rows.Clear();
-                    ShowTable();
+                        fileHandler.updateStudent(editStudent);
+
+                        MessageBox.Show($"Successfully updated Student", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        fileHandler.Reader();
+                        table.Rows.Clear();
+                        ShowTable();
+                    }
+
+
+
+
                 }
                 else
                 {
