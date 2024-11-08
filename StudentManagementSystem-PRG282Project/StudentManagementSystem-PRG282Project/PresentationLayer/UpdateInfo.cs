@@ -71,10 +71,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                 MessageBox.Show($"Successfully updated Student", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 fileHandler.Reader();
                 table.Rows.Clear();
-                foreach (Student student in fileHandler.students)
-                {
-                    table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);
-                }
+                ShowTable();
             }
             catch (Exception ex)
             {
@@ -106,10 +103,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             table.Rows.Clear();
             idInput.Text = "";
-            foreach (Student student in fileHandler.students)
-            {
-                table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);
-            }
+            ShowTable();
         }
 
         private void backBtn_Click(object sender, EventArgs e)
@@ -143,6 +137,14 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
 
             //UpdateInfo_Load(sender, e); // Need to put method to refresh the table
+        }
+
+        public void ShowTable()
+        {
+            foreach (Student student in fileHandler.students)
+            {
+                table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);
+            }
         }
     }
 }
