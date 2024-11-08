@@ -48,11 +48,13 @@ namespace StudentManagementSystem_PRG282Project.BusinessLayer
                 {
                     sw.WriteLine(content);
                 }
-                MessageBox.Show("Summary report written successfully.");
+                MessageBox.Show("Summary report written successfully", "Summary",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error writing to summary file: {ex.Message}");
+                MessageBox.Show($"Error writing to summary file {ex.Message}", "Summary", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
         }
     }

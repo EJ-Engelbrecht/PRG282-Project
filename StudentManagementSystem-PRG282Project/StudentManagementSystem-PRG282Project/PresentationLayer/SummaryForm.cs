@@ -34,5 +34,10 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
             summary.WriteToSummaryFile();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
