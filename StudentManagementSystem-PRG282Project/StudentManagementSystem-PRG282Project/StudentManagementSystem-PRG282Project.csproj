@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLayer\Summary.cs" />
-    <Compile Include="BusinessLayer\Update.cs" />
     <Compile Include="BusinessLayer\Validation.cs" />
     <Compile Include="DataLayer\FileHandler.cs" />
     <Compile Include="BusinessLayer\Student.cs" />

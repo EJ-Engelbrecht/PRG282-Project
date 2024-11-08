@@ -170,6 +170,39 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             dataGridView.DataSource = table;
         }
 
+        public void updateStudent(Student student)
+        {
+
+
+
+            string tempStudentTxt = Path.GetTempFileName();
+
+            using (var sr = new StreamReader(path))
+            using (var sw = new StreamWriter(tempStudentTxt))
+            {
+                int rowcounter = 0;
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] items = line.Split(',');
+                    if (int.Parse(items[0]) != student.StudentID)
+                    {
+                        sw.WriteLine(line);
+                    }
+                    else
+                    {
+                        sw.WriteLine(student.txtString());
+                    }
+                    rowcounter++;
+                }
+            }
+
+            File.Delete(path);
+            File.Move(tempStudentTxt, path);
+
+
+        }
+
 
     }
 }
