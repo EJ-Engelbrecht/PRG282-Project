@@ -28,4 +28,3 @@
 627533,Lin,Halburton,2003-10-15,627533@student.belgiumcampus.ac.za,BCOMP,404 Cedar Rd, (890) 123-4567
 628214,Verile,Bustin,2004-10-15,628214@student.belgiumcampus.ac.za,BIT,505 Birch Ln, (901) 234-5678
 629868,Griffin,Rigbye,1999-10-15,629868@student.belgiumcampus.ac.za,DIT,606 Walnut St, (012) 345-6789
-601634,John,Jones,2004/01/01 00:00:00,601634@student.belgiumcampus.ac.za,BCOMP,13 Aura Lane,+27254367894

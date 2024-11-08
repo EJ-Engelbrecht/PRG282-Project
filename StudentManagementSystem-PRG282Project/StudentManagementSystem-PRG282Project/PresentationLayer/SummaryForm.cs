@@ -14,6 +14,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 {
     public partial class SummaryForm : Form
     {
+        FileHandler fh= new FileHandler();  
         public SummaryForm()
         {
             InitializeComponent();
@@ -24,15 +25,12 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             Summary summary = new Summary();
 
-            int totalStudents;
-            double avgAge;
+            fh.Reader();
+           string output= summary.CreateSummary(fh.students);
 
-            summary.CreateSummary(out totalStudents, out avgAge);
+            totalLbl.Text = output;
 
-            totalLbl.Text = $"Total Students: {totalStudents}";
-            avgAgeLbl.Text = $"Average Age: {avgAge:F2}";
-
-            summary.WriteToSummaryFile();
+            fh.WriteToSummaryFile();
         }
 
         private void btnReturn_Click(object sender, EventArgs e)

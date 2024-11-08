@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.totalLbl = new System.Windows.Forms.Label();
-            this.avgAgeLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnReturn = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -43,16 +42,6 @@
             this.totalLbl.Size = new System.Drawing.Size(94, 29);
             this.totalLbl.TabIndex = 0;
             this.totalLbl.Text = "lblTotal";
-            // 
-            // avgAgeLbl
-            // 
-            this.avgAgeLbl.AutoSize = true;
-            this.avgAgeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.avgAgeLbl.Location = new System.Drawing.Point(46, 284);
-            this.avgAgeLbl.Name = "avgAgeLbl";
-            this.avgAgeLbl.Size = new System.Drawing.Size(79, 29);
-            this.avgAgeLbl.TabIndex = 1;
-            this.avgAgeLbl.Text = "lblAvg";
             // 
             // label1
             // 
@@ -84,7 +73,6 @@
             this.ClientSize = new System.Drawing.Size(817, 556);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.avgAgeLbl);
             this.Controls.Add(this.totalLbl);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "SummaryForm";
@@ -98,7 +86,6 @@
         #endregion
 
         private System.Windows.Forms.Label totalLbl;
-        private System.Windows.Forms.Label avgAgeLbl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnReturn;
     }

@@ -7,15 +7,16 @@ using System.Windows.Forms;
 using System.IO;
 using System.Configuration;
 using System.Data;
+using StudentManagementSystem_PRG282Project.BusinessLayer;
 
 namespace StudentManagementSystem_PRG282Project.DataLayer
 {
     internal class FileHandler
     {
         public string path = @"students.txt";
-        public List<Student> students = new List<Student>();
+        public  List<Student> students = new List<Student>();
         
-
+     
 
         public void TestFile()
         {
@@ -169,6 +170,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             dataGridView.DataSource = table;
         }
 
+<<<<<<< Updated upstream
         public void updateStudent(Student student)
         {
 
@@ -202,6 +204,29 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
         }
 
+=======
+        public void WriteToSummaryFile() //put in fh
+        {
+         string path = @"summary.txt";
+         Summary summary = new Summary();
+           
+            Reader();
+>>>>>>> Stashed changes
 
+            try
+            {
+                using (StreamWriter sw = new StreamWriter(path))
+                {
+                    sw.WriteLine(summary.CreateSummary(students)); ///returns a string with total and average
+                }
+                MessageBox.Show("Summary report written successfully", "Summary", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error writing to summary file {ex.Message}", "Summary", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
     }
 }

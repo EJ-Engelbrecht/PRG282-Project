@@ -11,52 +11,18 @@ namespace StudentManagementSystem_PRG282Project.BusinessLayer
 {
     public class Summary
     {
-        private List<Student> students;  
-        private string path = @"summary.txt";
+          
+       
         public Summary()
         {
-            LoadStudents(); 
         }
-
-        private void LoadStudents()
+        public string CreateSummary( List<Student> students)//Values are passed back to the caller ///add list here
         {
-            FileHandler handler = new FileHandler();
-            handler.Reader(); 
-            students = handler.students; // Assign to the student list
+         
+            return $"Total students: {students.Count()} Average age: {students.Average(s => DateTime.Now.Year - s.DateOfBirth.Year)}"; 
         }
 
-        public void CreateSummary(out int totalStudents, out double avgAge)
-        {
-            totalStudents=students.Count;
-
-            avgAge = totalStudents > 0 ? students.Average(s => DateTime.Now.Year - s.DateOfBirth.Year) : 0; 
-        }
-
-        //save the summary to summary.txt file
-        public void WriteToSummaryFile()
-        {
-            int totalStudents;
-            double avgAge;
-
-            CreateSummary(out  totalStudents, out avgAge);
-
-            string content = $"Total Students: {totalStudents}{Environment.NewLine}Average Age: {avgAge:F2}";
-
-            try
-            {
-                using (StreamWriter sw = new StreamWriter(path))
-                {
-                    sw.WriteLine(content);
-                }
-                MessageBox.Show("Summary report written successfully", "Summary",MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error writing to summary file {ex.Message}", "Summary", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            }
-        }
+     
     }
 }
 
