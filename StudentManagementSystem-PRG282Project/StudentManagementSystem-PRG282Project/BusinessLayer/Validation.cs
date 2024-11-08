@@ -16,14 +16,14 @@ namespace StudentManagementSystem_PRG282Project.BusinessLayer
     {
         public bool ValidateStudent(string name, string surname, string dob, string course, string address, string cellno)
         {
-            if (ValidName(name) && ValidName(surname) && ValidDob(dob) && ValidCourse(course) && ValidAddress(address) && ValidCellno(cellno))
+            if (ValidName(name, "name") && ValidName(surname, "surname") && ValidDob(dob) && ValidCourse(course) && ValidAddress(address) && ValidCellno(cellno))
             {
                 return true;
             }
             else { return false; }
         }
 
-        public bool ValidName(string name)
+        public bool ValidName(string name, string firstOrLast)
         {
             string pattern = "^[A-Z][a-zA-Z]{2,}$"; // Regular Expression Function to validate the name
             if (Regex.IsMatch(name, pattern))
@@ -32,7 +32,7 @@ namespace StudentManagementSystem_PRG282Project.BusinessLayer
             }
             else
             {
-                MessageBox.Show($"{name} is an invalid name (Ensure name begins with a capital letter and contains only letters)", //Text on the message box
+                MessageBox.Show($"{name} is an invalid {firstOrLast} (Ensure {firstOrLast} begins with a capital letter and contains only letters)", //Text on the message box
                     "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error); // Styling for the MessageBox
 
                 return false;

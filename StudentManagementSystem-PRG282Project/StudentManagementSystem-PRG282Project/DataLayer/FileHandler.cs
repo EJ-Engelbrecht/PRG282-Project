@@ -45,6 +45,8 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             }
         }
 
+        //===================================================================
+        //Adding a new student
         public void AddStudent(Student student)
         {
             try
@@ -70,6 +72,9 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
            
 
         }
+
+        //===================================================================
+
 
         //Delete Form Code
         public void DeleteRecordFromFile(int rowIndex, DataGridView datagridview1)
