@@ -151,7 +151,7 @@
             this.btnAddStudent.BackColor = System.Drawing.Color.SteelBlue;
             this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAddStudent.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAddStudent.Location = new System.Drawing.Point(542, 263);
+            this.btnAddStudent.Location = new System.Drawing.Point(542, 337);
             this.btnAddStudent.Name = "btnAddStudent";
             this.btnAddStudent.Size = new System.Drawing.Size(129, 42);
             this.btnAddStudent.TabIndex = 21;
