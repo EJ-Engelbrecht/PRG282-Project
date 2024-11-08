@@ -166,7 +166,7 @@ namespace StudentManagementSystem_PRG282Project
             this.Hide();
             var updateInfoForm = new UpdateInfo();
             updateInfoForm.Closed += (s, args) => this.Show();
-            updateInfoForm.ShowDialog();
+            updateInfoForm.Show();
         }
 
         private void viewAllStudents_Click(object sender, EventArgs e)
@@ -194,7 +194,8 @@ namespace StudentManagementSystem_PRG282Project
             updateInfo.lblStudentId.Visible = false;
             updateInfo.emailtxt.Visible = false;
             updateInfo.lblEmail.Visible = false;
-            
+            updateInfo.Closed += (s, args) => this.Show();
+
             updateInfo.Show();
         }
 
