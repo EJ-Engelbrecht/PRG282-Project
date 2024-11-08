@@ -105,7 +105,7 @@ namespace StudentManagementSystem_PRG282Project.BusinessLayer
 
         public bool ValidCellno(string cell)
         {
-            string pattern = "^(\\+27|0)[0-9]{9}$"; // Regular Expression Function to validate the name
+            string pattern = "^(\\+27|0)[0-9]{9}$"; // Regular Expression Function to validate the cell phone digits
             if (Regex.IsMatch(cell, pattern))
             {
                 return true;

@@ -151,7 +151,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
 
 
-            //UpdateInfo_Load(sender, e); // Need to put method to refresh the table
+            ShowTable();// Refreshes the DataGridView
         }
 
         //Method to write the exisiting Students to the datatable.

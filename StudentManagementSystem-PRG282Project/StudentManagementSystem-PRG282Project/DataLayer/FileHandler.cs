@@ -68,7 +68,6 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             catch (Exception ex)
             {
                 MessageBox.Show($"{ex.Message}", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                MessageBox.Show(ex.Message);
             }
            
 
