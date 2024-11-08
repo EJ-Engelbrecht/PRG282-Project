@@ -50,7 +50,7 @@
     <Compile Include="BusinessLayer\Update.cs" />
     <Compile Include="BusinessLayer\Validation.cs" />
     <Compile Include="DataLayer\FileHandler.cs" />
-    <Compile Include="DataLayer\Student.cs" />
+    <Compile Include="BusinessLayer\Student.cs" />
     <Compile Include="PresentationLayer\DeleteForm.cs">
       <SubType>Form</SubType>
     </Compile>

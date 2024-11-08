@@ -32,5 +32,10 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             LoadStudentData();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
