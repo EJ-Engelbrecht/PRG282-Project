@@ -74,9 +74,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             {
                 if (row != null)
                 {
-
-
-
                     if (ans)
                     {
                         Student editStudent = new Student(int.Parse(studentIDtxt.Text), firstNametxt.Text, lastNametxt.Text, DateTime.Parse(DOBtxt.Text), emailtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);
@@ -89,10 +86,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                         table.Rows.Clear();
                         ShowTable();
                     }
-
-
-
-
                 }
                 else
                 {
@@ -122,7 +115,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                 courseComboBox.Text = row.Cells[5].Value.ToString();
                 addresstxt.Text = row.Cells[6].Value.ToString();
                 celltxt.Text = row.Cells[7].Value.ToString();
-
             }
         }
 
@@ -137,7 +129,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         private void backBtn_Click(object sender, EventArgs e)
         {
             this.Close();
-
         }
 
         private void btnAddStudent_Click(object sender, EventArgs e)
@@ -161,8 +152,6 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
             {
                 MessageBox.Show($"Something went wrong: \n{ex.Message}", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
 
             ShowTable();// Refreshes the DataGridView
         }

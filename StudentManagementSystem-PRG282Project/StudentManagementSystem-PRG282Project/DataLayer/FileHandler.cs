@@ -13,19 +13,14 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 {
     internal class FileHandler
     {
+        //public path to students.txt
         public string path = @"students.txt";
+
+        //Public List of Object Student 
         public  List<Student> students = new List<Student>();
-        
-     
 
-        public void TestFile()
-        {
-            if (File.Exists(path))
-            {
-                MessageBox.Show($"File Exists", "File", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
+        //===================================================================
+        //Populating List students
         public void Reader()
         {
             students = new List<Student>();
@@ -47,6 +42,8 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         }
 
         //===================================================================
+
+        //===================================================================
         //Adding a new student
         public void AddStudent(Student student)
         {
@@ -57,10 +54,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
                     using (StreamWriter sr = new StreamWriter(fs))
                     {
                         string StudentInfo = student.txtString();
-
                         sr.WriteLine(StudentInfo);
-
-
                     }
 
                 }
@@ -70,14 +64,12 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             {
                 MessageBox.Show($"{ex.Message}", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
-
         }
 
         //===================================================================
 
-
-        //Delete Form Code
+        //===================================================================
+        //Deleting a Student
         public void DeleteRecordFromFile(int rowIndex, DataGridView datagridview1)
         {
             if (rowIndex < 0 || rowIndex >= datagridview1.Rows.Count)
@@ -104,7 +96,6 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
                         rowcounter++;
                     }
                 }
-
                 File.Delete(path);
                 File.Move(tempStudentTxt, path);
                 datagridview1.Rows.RemoveAt(rowIndex);
@@ -116,41 +107,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             
         }
 
-
-        public void DataTableDisplay(DataGridView datagridview1)
-        {
-            DataTable table = new DataTable();
-
-        //    using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
-        //    {
-        //        using (StreamReader sr = new StreamReader(fs))
-        //        {
-        //            string line;
-        //            bool columnsAdded = false;
-
-        //            while ((line = sr.ReadLine()) != null)
-        //            {
-        //                string[] LineArr = line.Split(',');
-        //                if (columnsAdded == false)
-        //                {
-        //                    table.Columns.Add("Student ID");
-        //                    table.Columns.Add("First Name");
-        //                    table.Columns.Add("Last Name");
-        //                    table.Columns.Add("Date Of Birth");
-        //                    table.Columns.Add("Email");
-        //                    table.Columns.Add("Course");
-        //                    table.Columns.Add("Address");
-        //                    table.Columns.Add("Cellphone No.");
-        //                    columnsAdded = true;
-        //                }
-
-        //                table.Rows.Add(LineArr);
-        //            }
-
-        //        }
-        //    }
-        //    datagridview1.DataSource = table;
-        }
+        //===================================================================
 
         public void DataTableDisplay(DataTable table, DataGridView dataGridView)
         {
@@ -170,7 +127,8 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
             dataGridView.DataSource = table;
         }
 
-
+        //===================================================================
+        //Updating a Student's Details
         public void updateStudent(Student student)
         {
 
@@ -200,11 +158,12 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
             File.Delete(path);
             File.Move(tempStudentTxt, path);
-
-
         }
 
+        //===================================================================
 
+        //===================================================================
+        //Writing Summary File
         public void WriteToSummaryFile() //put in fh
         {
          string path = @"summary.txt";
@@ -228,5 +187,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
             }
         }
+
+        //===================================================================
     }
 }

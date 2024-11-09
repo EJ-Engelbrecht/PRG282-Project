@@ -132,25 +132,13 @@ namespace StudentManagementSystem_PRG282Project
             this.Controls.Add(this.addStudent);
             this.Controls.Add(this.viewAllStudents);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            //Just to test connection to students.txt
-            //FileHandler fh = new FileHandler();
-            //fh.TestFile();
-            //fh.Reader();
-        }
+       
 
         private void deleteStudent_Click(object sender, EventArgs e)
         {
@@ -200,9 +188,5 @@ namespace StudentManagementSystem_PRG282Project
             updateInfo.Show();
         }
 
-        //private void viewAllStudents_Click(object sender, EventArgs e)
-        //{
-
-        //}
     }
 }
