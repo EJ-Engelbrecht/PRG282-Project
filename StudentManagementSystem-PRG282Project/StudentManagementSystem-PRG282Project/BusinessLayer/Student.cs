@@ -42,27 +42,41 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
 
         public static int NewID(string course)
         {
+            int max = 1;
             string year = Convert.ToString(DateTime.Now.Year - 1964);
+            FileHandler fhl = new FileHandler();
             switch (course)
             {
                 case "BCOMP": 
-                    year += "1";
+                    year += "1" ;
+                    max = fhl.GetMax('1');
                     break;
 
                 case "BIT":
                     year += "2";
+                    max = fhl.GetMax('2');
                     break;
 
                 case "DIT":
                     year += "3";
+                    max = fhl.GetMax('3');
                     break;
             }
 
             // potentially get the last line of  the text file
-            Random random = new Random();
-            year += Convert.ToString(random.Next(0,10));
-            year += Convert.ToString(random.Next(0,10));
-            year += Convert.ToString(random.Next(0,10));
+            if (max < 10)
+            {
+                year += "00" + Convert.ToString(max);
+            }
+            else if (max < 99)
+            {
+                year += "0" + Convert.ToString(max);
+
+            }
+            else
+            {
+                year += Convert.ToString(max);
+            }
 
             return Convert.ToInt32(year);
 

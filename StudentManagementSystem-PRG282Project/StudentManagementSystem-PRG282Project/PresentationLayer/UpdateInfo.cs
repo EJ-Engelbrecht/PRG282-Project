@@ -135,7 +135,7 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         {
             try
             {
-                int Id = Student.NewID(courseComboBox.Text);// still need to add check for text file
+                int Id = Student.NewID(courseComboBox.Text);
                 string email = Student.NewEmail(Id);
                 Validation v = new Validation();
                 bool ans = v.ValidateStudent(firstNametxt.Text, lastNametxt.Text, DOBtxt.Text, courseComboBox.Text, addresstxt.Text, celltxt.Text);

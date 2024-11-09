@@ -17,7 +17,7 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         public string path = @"students.txt";
 
         //Public List of Object Student 
-        public  List<Student> students = new List<Student>();
+        public List<Student> students = new List<Student>();
 
         //===================================================================
         //Populating List students
@@ -189,5 +189,36 @@ namespace StudentManagementSystem_PRG282Project.DataLayer
         }
 
         //===================================================================
+
+        //===================================================================
+        //Checking if id is unique
+        //This method gets the current highest student number for the same and year 
+        public int GetMax(char course)
+        {
+            int max = 1;
+            int date = DateTime.Now.Year-1964;
+            Reader();
+            foreach (Student student in students)
+            {
+                int year = Convert.ToInt32(student.StudentID.ToString().Substring(0, 2));
+                Console.WriteLine(year);
+                //Checks if the date and course are the same (aka the first 3 digits of the studentID)
+                char Digit3= student.StudentID.ToString()[2];
+                Console.WriteLine(Digit3);
+                if ( Digit3 == course && year==date) 
+                {
+                    //Get the highest number from the last 3 digits
+                    int temp = student.StudentID - (year * 10000) - (Convert.ToInt32(Digit3.ToString()) * 1000);
+                    max = Math.Max(max, temp);
+                    Console.WriteLine("Student"+student.StudentID);
+                    Console.WriteLine("Max"+ max);
+                    Console.WriteLine("Temp"+temp);
+                }
+            }
+
+            return max+1;
+        }
+
+
     }
 }
