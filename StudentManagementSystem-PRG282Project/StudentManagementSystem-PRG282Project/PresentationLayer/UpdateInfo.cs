@@ -162,6 +162,8 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
 
                     fileHandler.AddStudent(NewStudent);
+                    ShowTable();// Refreshes the DataGridView
+
                 }
             }
             catch (Exception ex)
@@ -169,12 +171,12 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
                 MessageBox.Show($"Something went wrong: \n{ex.Message}", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            ShowTable();// Refreshes the DataGridView
         }
 
         //Method to write the exisiting Students to the datatable.
         public void ShowTable()
         {
+            fileHandler.Reader();
             foreach (Student student in fileHandler.students)
             {
                 table.Rows.Add(student.StudentID, student.FirstName, student.LastName, student.DateOfBirth, student.Email, student.Course, student.Address, student.CellNum);

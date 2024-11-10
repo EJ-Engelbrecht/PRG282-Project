@@ -28,3 +28,4 @@
 601010,Lin,Halburton,2003/10/15,601010@student.belgiumcampus.ac.za,BCOMP,404 Cedar Rd,0901234567
 602010,Verile,Bustin,2004/10/15,602010@student.belgiumcampus.ac.za,BIT,505 Birch Ln,0012345678
 603010,Griffin,Rigbye,1999/10/15,603010@student.belgiumcampus.ac.za,DIT,606 Walnut St,0123456789
+601011,Tom,Hiddleston,1959/10/10 00:00:00,601011@student.belgiumcampus.ac.za,BCOMP,Asgard,+27896897451
