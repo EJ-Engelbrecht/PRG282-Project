@@ -124,14 +124,20 @@
   <data name="CustomerHappiness (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CustomerHappiness (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pexels-cottonbro-6333730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-cottonbro-6333730.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DeleteStudent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DeleteStudent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2024-11-10 161408" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-11-10 161408.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CustomerHappiness" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CustomerHappiness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CustomerHappiness (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CustomerHappiness (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ViewAllStudentsFinal.2PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewAllStudentsFinal.2PNG.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CustomerHappiness (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CustomerHappiness (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,10 +148,10 @@
   <data name="Untitled design (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pexels-cottonbro-6333730" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-cottonbro-6333730.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CustomerHappiness (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CustomerHappiness (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ViewAllStudentsFinal.2PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ViewAllStudentsFinal.2PNG.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SummaryReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SummaryReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
