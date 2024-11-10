@@ -139,5 +139,25 @@ namespace StudentManagementSystem_PRG282Project.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ViewAllStudents {
+            get {
+                object obj = ResourceManager.GetObject("ViewAllStudents", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ViewAllStudentsFinal_2PNG {
+            get {
+                object obj = ResourceManager.GetObject("ViewAllStudentsFinal.2PNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
