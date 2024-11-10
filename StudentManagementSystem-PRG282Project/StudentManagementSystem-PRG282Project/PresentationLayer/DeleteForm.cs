@@ -23,7 +23,10 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
 
         private void btnDeleteStudent_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Are you sure you want to delete a student?", "Confirm Delete?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            string firstName = dataGridView1.CurrentRow.Cells["First Name"].Value.ToString();
+            string lastName = dataGridView1.CurrentRow.Cells["Last Name"].Value.ToString();
+
+            DialogResult result = MessageBox.Show($"Are you sure you want to delete {firstName} {lastName}?", "Confirm Delete?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 fh.DeleteRecordFromFile(dataGridView1.CurrentRow.Index, dataGridView1);
