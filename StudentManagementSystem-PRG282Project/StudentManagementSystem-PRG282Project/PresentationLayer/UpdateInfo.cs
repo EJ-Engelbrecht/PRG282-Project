@@ -102,20 +102,36 @@ namespace StudentManagementSystem_PRG282Project.PresentationLayer
         int indexRow;
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            indexRow = e.RowIndex;
-            DataGridViewRow row = dataGridView1.Rows[indexRow];
-
-            if (row != null)
+            try
             {
-                studentIDtxt.Text = row.Cells[0].Value.ToString();
-                firstNametxt.Text = row.Cells[1].Value.ToString();
-                lastNametxt.Text = row.Cells[2].Value.ToString();
-                DOBtxt.Text = row.Cells[3].Value.ToString();
-                emailtxt.Text = row.Cells[4].Value.ToString();
-                courseComboBox.Text = row.Cells[5].Value.ToString();
-                addresstxt.Text = row.Cells[6].Value.ToString();
-                celltxt.Text = row.Cells[7].Value.ToString();
+                indexRow = e.RowIndex;
+                DataGridViewRow row = dataGridView1.Rows[indexRow];
+
+                if (row != null)
+                {
+                    studentIDtxt.Text = row.Cells[0].Value.ToString();
+                    firstNametxt.Text = row.Cells[1].Value.ToString();
+                    lastNametxt.Text = row.Cells[2].Value.ToString();
+                    if (DateTime.TryParse(row.Cells[3].Value.ToString(), out DateTime dateOfBirth))
+                    {
+                        DOBtxt.Text = dateOfBirth.ToString("yyyy/MM/dd");
+                    }
+                    else
+                    {
+                        DOBtxt.Text = ""; // or some default value if the date is invalid
+                    }
+                    emailtxt.Text = row.Cells[4].Value.ToString();
+                    courseComboBox.Text = row.Cells[5].Value.ToString();
+                    addresstxt.Text = row.Cells[6].Value.ToString();
+                    celltxt.Text = row.Cells[7].Value.ToString();
+                }
             }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show($"Error occurred {ex.Message}", "Update Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         //Method to clear and reset the search
